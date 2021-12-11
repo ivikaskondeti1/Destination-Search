@@ -1,0 +1,29 @@
+/* Write your CSS here */
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 20px;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: #f1f5f9;
+}
+input {
+  background-color: #f1f5f9;
+  border: 0;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.DestinationItemContaner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
